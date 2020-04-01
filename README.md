@@ -1,9 +1,10 @@
 # Node Red Home Assistant Flows
-<b>Required:</b> Home Assistant Websocket Plugin: https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket
+<b>Required:</b><br> 
+- <a href="https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket">Home Assistant Websocket Plugin</a>
 
-<b>Automations:</b>
+<b>Automations:</b><br>
 <b>Presence Notifier</b><br>
-- Uses pushover API and Amazon Alexa to notify different areas of the housee/phones who is home and leaving
+- Uses the Pushover API and Amazon Alexa to notify different areas of the housee/phones who is home and leaving
 
 <b>Night Lights</b><br>
 - Turns on ktichen lights when the sun is down and the back patio sliding door is opened, but only if the tv is off
