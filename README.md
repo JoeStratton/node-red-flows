@@ -2,7 +2,7 @@
 <b>Required:</b><br> 
 - <a href="https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket">Home Assistant Websocket Plugin</a>
 <br>
-<br>
+
 <b>Presence Notifier</b><br>
 - Uses the Pushover API and Amazon Alexa to notify different areas of the housee/phones who is home and leaving
 
