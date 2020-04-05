@@ -29,3 +29,4 @@
 - If Pantry door is opened, turn on light, close after 2 min of no door activity
 - Notify household if outdoor fan is left on for more than 2 hours
 - Power Chandelier from 1-100 brightness when someone opens front door
+- Close Garage after left open for 45 minutes and notify users via Pushover/Alexa notification
