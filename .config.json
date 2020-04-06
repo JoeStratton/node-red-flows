@@ -369,7 +369,7 @@
      "types": [
       "rbe"
      ],
-     "enabled": true,
+     "enabled": false,
      "local": false,
      "module": "node-red-node-rbe",
      "file": "/usr/src/node-red/node_modules/node-red-node-rbe/rbe.js"
@@ -386,7 +386,7 @@
      "types": [
       "tail"
      ],
-     "enabled": true,
+     "enabled": false,
      "local": false,
      "module": "node-red-node-tail",
      "file": "/usr/src/node-red/node_modules/node-red-node-tail/28-tail.js"
@@ -395,7 +395,7 @@
   },
   "node-red-contrib-home-assistant-websocket": {
    "name": "node-red-contrib-home-assistant-websocket",
-   "version": "0.15.0",
+   "version": "0.22.2",
    "local": true,
    "nodes": {
     "server": {
@@ -448,6 +448,16 @@
      "module": "node-red-contrib-home-assistant-websocket",
      "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/poll-state/poll-state.js"
     },
+    "ha-webhook": {
+     "name": "ha-webhook",
+     "types": [
+      "ha-webhook"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-home-assistant-websocket",
+     "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/webhook/webhook.js"
+    },
     "api-call-service": {
      "name": "api-call-service",
      "types": [
@@ -457,6 +467,16 @@
      "local": true,
      "module": "node-red-contrib-home-assistant-websocket",
      "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/call-service/call-service.js"
+    },
+    "ha-entity": {
+     "name": "ha-entity",
+     "types": [
+      "ha-entity"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-home-assistant-websocket",
+     "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/entity/entity.js"
     },
     "ha-fire-event": {
      "name": "ha-fire-event",
