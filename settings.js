@@ -55,7 +55,7 @@ module.exports = {
     // The maximum number of messages nodes will buffer internally as part of their
     // operation. This applies across a range of nodes that operate on message sequences.
     //  defaults to no limit. A value of 0 also means no limit is applied.
-    //nodeMaxMessageBufferLength: 0,
+    //nodeMessageBufferMaxLength: 0,
 
     // To disable the option for using local files for storing keys and certificates in the TLS configuration
     //  node, set this to true
@@ -243,7 +243,7 @@ module.exports = {
     // palette. If a node's category is not in the list, the category will get
     // added to the end of the palette.
     // If not set, the following default order is used:
-    //paletteCategories: ['subflows', 'input', 'output', 'function', 'social', 'mobile', 'storage', 'analysis', 'advanced'],
+    //paletteCategories: ['subflows', 'common', 'function', 'network', 'sequence', 'parser', 'storage'],
 
     // Configure the logging output
     logging: {
@@ -265,10 +265,12 @@ module.exports = {
         }
     },
 
-    // Customising the editor
-    editorTheme: {
-        page: {
-            css: "/data/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
-        }
-    }
+	editorTheme: {
+		page: {
+			css: "/usr/src/node-red/node_modules/@node-red-contrib-themes/midnight-red/theme.css"
+		},
+		projects: {
+			enabled: true
+		}
+	}
 }

@@ -550,20 +550,20 @@
     }
    }
   },
-  "node-red-contrib-stoptimer": {
-   "name": "node-red-contrib-stoptimer",
-   "version": "0.0.7",
+  "node-red-contrib-stoptimer2": {
+   "name": "node-red-contrib-stoptimer2",
+   "version": "0.1.1",
    "local": true,
    "nodes": {
-    "stoptimer": {
-     "name": "stoptimer",
+    "stoptimer2": {
+     "name": "stoptimer2",
      "types": [
-      "stoptimer"
+      "stoptimer2"
      ],
      "enabled": true,
      "local": true,
-     "module": "node-red-contrib-stoptimer",
-     "file": "/data/node_modules/node-red-contrib-stoptimer/stoptimer.js"
+     "module": "node-red-contrib-stoptimer2",
+     "file": "/data/node_modules/node-red-contrib-stoptimer2/stoptimer2/stoptimer2.js"
     }
    }
   }
@@ -583,7 +583,13 @@
    },
    "menu-menu-item-sidebar": true,
    "menu-deploymenu-item-flow": false,
-   "menu-deploymenu-item-full": true
+   "menu-deploymenu-item-full": true,
+   "git": {
+    "user": {
+     "name": "joe.stratton@asu.edu",
+     "email": "joe.stratton@asu.edu"
+    }
+   }
   }
  }
 }

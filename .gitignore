@@ -1,3 +1,5 @@
 node_modules
 *.backup
 node-red-contrib-home-assistant-*
+projects/
+*~
